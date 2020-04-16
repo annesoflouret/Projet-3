@@ -10,8 +10,6 @@ body
   display: flex;
   justify-content: center;
   background: #569C87;
-  margin-right: 5em;
-  margin-left: 5em;
   padding: 1em;
   color: #EEC550;
   font-size: 17px;
@@ -22,18 +20,36 @@ body
   display: flex;
   justify-content: space-between;
   background: #569C87;
-  margin-right: 5em;
-  margin-left: 5em;
   padding: 1em;
   color: #EEC550;
 }
 
 
-
-#conteneur-top, #conteneur-bottom
+.btn
 {
-	padding: 0 10em;
+  color: #EEC550;
+  text-decoration: none;
+  display: inline-block;
+  animation: wiggle 2s infinite;
+  :hover 
+  {
+  animation: none;
+  }
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+#conteneur
+{
+	padding: 0 18em;
 	margin: 4em;
+  height: 770px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -41,20 +57,131 @@ body
 	flex-wrap: wrap;
 }
 
-.menu 
+.menu
 {
-	margin: auto;
-	width: 230px;
-	-moz-box-shadow: 1px 1px 8px #E0E0E0; 
-  	-webkit-box-shadow: 1px 1px 8px #E0E0E0; 
-  	box-shadow: 1px 1px 8px #E0E0E0;
+  width: 200px;
+  padding: 6.5em 1em;
+  box-shadow: 1px 1px 8px #BDBDBD;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  box-sizing: border-box;
+}
+/*menu1*/
 
+#menu1
+{
+  background-color: #FCDFDB;
+  font-family: "chalkboard";
+  font-size: 17px;
+}
+
+figure, p 
+{
+  margin: 0;
+}
+
+
+/*menu 1 fin*/
+
+/*menu 2*/
+
+#menu2
+{
+  background-color: #FEF5FF;
+
+  }
+
+#menu-title2 
+{
+  font-family: "Superclarendon";
+  font-size: 25px;
+  color: #C77411;
+  
+
+}
+
+#french-menu
+{
+  background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Didot";
+  font-size: 17px;
+
+}
+
+/*menu3*/
+
+#menu3
+{
+  background-color: #F1F1F1;
+
+  }
+
+#menu-title3
+{
+  font-family: "Superclarendon";
+  font-size: 25px;
+  color: #2C96F9;
+  
+
+}
+
+#delice
+{
+  background: linear-gradient(170deg, #2A50E3 25%,  #2C96F9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
+  font-size: 25px;
+
+}
+
+
+/*menu 4*/
+
+#menu4
+{
+  background-color: #F9F9F9;
+}
+
+#palette
+{
+  background: linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
+  font-size: 25px;
+}
+
+#menu-title4
+{
+  color: #54A24F;
+}
+
+
+
+#soon
+{
+
+  background-color: #569C87;
+  display: flex;
+  justify-content: center;
+  margin: 2em 19em;
+  padding: 0.6em;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: normal;
+  color: #EEC550;
 }
 
 
 
 
-/* Menu */
+/* Menu détaillé */
 
 #test {
 
