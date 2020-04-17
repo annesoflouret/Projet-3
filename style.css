@@ -271,6 +271,7 @@ main
   justify-content: center;
   align-items: flex-end;
   margin-top: 5em;
+  text-align: center;
 }
 
 .menu-item
@@ -292,11 +293,12 @@ h3
   font-family: Comic sans MS;
 }
 
-
-.menu-title h3 h4
+#note-footer
 {
-
+  vertical-align: middle;
 }
+
+
 
 
 
