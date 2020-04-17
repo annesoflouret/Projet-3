@@ -22,6 +22,10 @@ body
   background: #569C87;
   padding: 1em;
   color: #EEC550;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 
@@ -48,7 +52,7 @@ body
 #conteneur
 {
 	padding: 0 18em;
-	margin: 4em;
+	margin: 4em 4em 0em;
   height: 770px;
 	display: flex;
 	flex-direction: row;
@@ -177,12 +181,13 @@ figure, p
   background-color: #569C87;
   display: flex;
   justify-content: center;
-  margin: 2em 19em;
+  margin: 1em 19em 5em;
   padding: 0.6em;
   border-radius: 10px;
   font-size: 25px;
   font-weight: normal;
   color: #EEC550;
+
 }
 
 
@@ -205,35 +210,51 @@ figure, p
 	color: #353535;
 }
 
-#menu-full
+#flut
 {
-	width: 70%;
-	margin: 1.5em 4em 4em 4em;
-	-moz-box-shadow: 1px 1px 8px #E0E0E0; 
-  	-webkit-box-shadow: 1px 1px 8px #E0E0E0; 
-  	box-shadow: 1px 1px 8px #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-article
+#container
 {
   background: #FCDFDB;
   width: 700px;
   height: 1000px;
   box-sizing: border-box;
   box-shadow: 1px 1px 8px #BDBDBD;
+  padding: 2em 3em;
+  
 }
 
-h3
+main
 {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.line_1
+{
+  width: 160px;
+}
+
+.subtitle
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.food
+{
   display: flex;
   text-align: center;
-  flex-direction: column;
-  justify-content: center;
 }
-
-
-
 
 
 
