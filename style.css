@@ -78,6 +78,12 @@ body
   font-size: 17px;
 }
 
+#menu-title1
+{
+  font-size: 25px;
+  
+}
+
 figure, p 
 {
   margin: 0;
@@ -123,7 +129,7 @@ figure, p
 
 #menu-title3
 {
-  font-family: "Superclarendon";
+   font-family: Brandlay Hand, fantasy;
   font-size: 25px;
   color: #2C96F9;
   
@@ -135,8 +141,8 @@ figure, p
   background: linear-gradient(170deg, #2A50E3 25%,  #2C96F9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Dancing Script";
-  font-size: 25px;
+  font-family: URW Chancery L, cursive;
+  font-size: 20px;
 }
 
 
@@ -152,13 +158,15 @@ figure, p
   background: linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Dancing Script";
-  font-size: 25px;
+  font-family: Bradley Hand, cursive;
+  font-size: 20px;
 }
 
 #menu-title4
 {
   color: #54A24F;
+  font-family: Brandlay Hand, fantasy;
+  font-size: 25px;
 }
 
 
