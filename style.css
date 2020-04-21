@@ -1,5 +1,6 @@
 /*font*/
-@font-face {
+@font-face 
+{
     font-family: 'dancing_scriptregular';
     src: url('font/dancingscript/dancingscript-webfont.eot');
     src: url('font/dancingscript/dancingscript-webfont.eot?#iefix') format('embedded-opentype'),
@@ -10,6 +11,32 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face 
+{
+    font-family: 'kaushan_scriptregular';
+    src: url('font/kaushanscript/kaushanscript-regular-webfont.eot');
+    src: url('font/kaushanscript/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('font/kaushanscript/kaushanscript-regular-webfont.woff') format('woff'),
+         url('font/kaushanscript/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('font/kaushanscript/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'oleo_scriptregular';
+    src: url('font/Oleo_script/oleoscript-regular-webfont.eot');
+    src: url('font/Oleo_script/oleoscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Oleo_script/oleoscript-regular-webfont.woff2') format('woff2'),
+         url('font/Oleo_script/oleoscript-regular-webfont.woff') format('woff'),
+         url('font/Oleo_script/oleoscript-regular-webfont.ttf') format('truetype'),
+         url('font/Oleo_script/oleoscript-regular-webfont.svg#oleo_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 body
 {
@@ -23,9 +50,20 @@ body
   display: flex;
   justify-content: center;
   background: #569C87;
-  padding: 1em;
+  margin: 0;
   color: #EEC550;
-  font-size: 17px;
+  font-size: 50px;
+}
+#name
+{
+  display: flex;
+  align-items: center;
+  margin: 20px 0 20px
+}
+
+h1
+{
+  margin: 0
 }
 
 #bottom-bar
@@ -175,7 +213,7 @@ figure, p
   background: linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Bradley Hand, cursive;
+  font-family: 'kaushan_scriptregular';
   font-size: 20px;
 }
 
@@ -230,6 +268,7 @@ figure, p
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-family: 'oleo_scriptregular';
 
 }
 
@@ -301,14 +340,21 @@ main
 h3
 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
-  font-family: Comic sans MS;
+  font-family: 'oleo_scriptregular';
 }
 
 #note-footer
 {
-  vertical-align: middle;
+  vertical-align: sub;
+  
+}
+
+#note_footer
+{
+  font-family: 'oleo_scriptregular';
+  font-size: 30px;
 }
 
 
