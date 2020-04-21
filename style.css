@@ -24,25 +24,50 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'oleo_scriptregular';
-    src: url('font/Oleo_script/oleoscript-regular-webfont.eot');
-    src: url('font/Oleo_script/oleoscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/Oleo_script/oleoscript-regular-webfont.woff2') format('woff2'),
-         url('font/Oleo_script/oleoscript-regular-webfont.woff') format('woff'),
-         url('font/Oleo_script/oleoscript-regular-webfont.ttf') format('truetype'),
-         url('font/Oleo_script/oleoscript-regular-webfont.svg#oleo_scriptregular') format('svg');
+    font-family: 'devonshireregular';
+    src: url('font/devonshire/devonshire-regular-webfont.eot');
+    src: url('font/devonshire/devonshire-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/devonshire/devonshire-regular-webfont.woff2') format('woff2'),
+         url('font/devonshire/devonshire-regular-webfont.woff') format('woff'),
+         url('font/devonshire/devonshire-regular-webfont.ttf') format('truetype'),
+         url('font/devonshire/devonshire-regular-webfont.svg#devonshireregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'kalamregular';
+    src: url('font/kalam/kalam-regular-webfont.eot');
+    src: url('font/kalam/kalam-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/kalam/kalam-regular-webfont.woff2') format('woff2'),
+         url('font/kalam/kalam-regular-webfont.woff') format('woff'),
+         url('font/kalam/kalam-regular-webfont.ttf') format('truetype'),
+         url('font/kalam/kalam-regular-webfont.svg#kalamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kuraleregular';
+    src: url('font/kurale/kurale-regular-webfont.eot');
+    src: url('font/kurale/kurale-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/kurale/kurale-regular-webfont.woff2') format('woff2'),
+         url('font/kurale/kurale-regular-webfont.woff') format('woff'),
+         url('font/kurale/kurale-regular-webfont.ttf') format('truetype'),
+         url('font/kurale/kurale-regular-webfont.svg#kuraleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-
-
+/* 1er page*/
 body
 {
   font-style: normal;
   margin: 0px;
   font-family: 'helvetica', 'Arial', sans-serif;
+}
+
+h1
+{
+  margin: 0
 }
 
 #top-bar
@@ -54,16 +79,12 @@ body
   color: #EEC550;
   font-size: 50px;
 }
+
 #name
 {
   display: flex;
   align-items: center;
   margin: 20px 0 20px
-}
-
-h1
-{
-  margin: 0
 }
 
 #bottom-bar
@@ -78,27 +99,6 @@ h1
   width: 100%;
   box-sizing: border-box;
 }
-
-
-.btn
-{
-  color: #EEC550;
-  text-decoration: none;
-  display: inline-block;
-  animation: wiggle 2s infinite;
-  :hover 
-  {
-  animation: none;
-  }
-}
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
 
 #conteneur
 {
@@ -115,7 +115,7 @@ h1
 .menu
 {
   width: 200px;
-  padding: 6.5em 1em;
+ 
   box-shadow: 1px 1px 8px #BDBDBD;
   display: flex;
   text-align: center;
@@ -124,19 +124,29 @@ h1
   height: 300px;
   box-sizing: border-box;
 }
-/*menu1*/
 
-#menu1
+.btn
 {
-  background-color: #FCDFDB;
-  font-family: "chalkboard";
-  font-size: 17px;
+  color: #EEC550;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover
+{ 
+  animation: wiggle 1.15s infinite;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
 }
 
-#menu-title1
+/*menu carte 1*/
+a
 {
-  font-size: 25px;
-  
+  text-decoration: none;
 }
 
 figure, p 
@@ -144,11 +154,40 @@ figure, p
   margin: 0;
 }
 
+#menu1 p
+{
+   color: #3C1218;
+}
 
-/*menu 1 fin*/
+#menu1
+{
+  background-color: #FCDFDB;
+  font-family: 'devonshireregular', sans-serif;
+  font-size: 25px;
+}
 
-/*menu 2*/
+#menu-title1
+{
+  font-size: 25px;
+  font-family: 'kalamregular';
+  color: #3C1218;
+}
 
+.moving-text
+{
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 800ms;
+
+}
+
+.moving-text:hover
+{
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
+/*menu carte 2*/
 #menu2
 {
   background-color: #FEF5FF;
@@ -157,11 +196,9 @@ figure, p
 
 #menu-title2 
 {
-  font-family: "Superclarendon";
+  font-family: 'kuraleregular', sans-serif;
   font-size: 25px;
   color: #C77411;
-  
-
 }
 
 #french-menu
@@ -169,26 +206,22 @@ figure, p
   background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Didot";
+  font-family: 'kuraleregular', sans-serif;
   font-size: 17px;
 
 }
 
-/*menu3*/
-
+/*menu carte 3*/
 #menu3
 {
   background-color: #F1F1F1;
-
-  }
+}
 
 #menu-title3
 {
-   font-family: Brandlay Hand, fantasy;
+   font-family: 'kalamregular', sans-serif;
   font-size: 25px;
   color: #2C96F9;
-  
-
 }
 
 #delice
@@ -196,13 +229,11 @@ figure, p
   background: linear-gradient(170deg, #2A50E3 25%,  #2C96F9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'dancing_scriptregular';
+  font-family: 'dancing_scriptregular', sans-serif;
   font-size: 20px;
 }
 
-
-/*menu 4*/
-
+/*menu carte 4*/
 #menu4
 {
   background-color: #F9F9F9;
@@ -210,25 +241,24 @@ figure, p
 
 #palette
 {
+  background: -moz-linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
+  background: -webkit-linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
   background: linear-gradient(170deg, #54A24F 25%,  #BEFD7E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'kaushan_scriptregular';
+  font-family: 'kaushan_scriptregular', sans-serif;
   font-size: 20px;
 }
 
 #menu-title4
 {
   color: #54A24F;
-  font-family: Brandlay Hand, fantasy;
+  font-family: 'kalamregular', sans-serif;
   font-size: 25px;
 }
 
-
-
 #soon
 {
-
   background-color: #569C87;
   display: flex;
   justify-content: center;
@@ -238,41 +268,26 @@ figure, p
   font-size: 25px;
   font-weight: normal;
   color: #EEC550;
-
 }
 
-
-
-
-/* Menu détaillé */
-
-#menu-1-title 
-{
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-#menu-title
-{
-	font-size: 30px;
-	font-weight: bold;
-	margin-top: 1.5em;
-	color: #353535;
-}
-
-.subtitle-menu
+/* Menu 1 détaillé */
+main
 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  font-family: 'oleo_scriptregular';
-
+  margin-bottom: 8em;
 }
 
-#container
+h3
+{
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'devonshireregular', sans-serif;
+}
+
+#container_1
 {
   background: #FCDFDB;
   width: 700px;
@@ -280,17 +295,42 @@ figure, p
   box-sizing: border-box;
   box-shadow: 1px 1px 8px #BDBDBD;
   padding: 2em 4em;
-  
-  
 }
 
-main
+#menu-1-title 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu-title
+{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 1.5em;
+	color: #353535;
+}
+
+#note-footer
+{
+  vertical-align: sub;
+}
+
+#note_footer
+{
+  font-family: 'devonshireregular', sans-serif;
+  font-size: 30px;
+}
+
+
+.subtitle-menu
 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 8em;
-
+  text-align: center;
+  font-family: 'devonshireregular', sans-serif;
 }
 
 .line_1
@@ -305,8 +345,8 @@ main
   align-items: center;
   font-weight: bold;
   font-size: 20px;
-  font-family: Comic sans MS;
-
+  font-family: 'kalamregular', sans-serif;
+  font-weight: bold;
 }
 
 .food
@@ -314,7 +354,7 @@ main
   display: flex;
   justify-content: space-between;
   margin-bottom: 1em;
-  font-family: Bradley Hand;
+  font-family: 'kalamregular', sans-serif;
 }
 
 .footer
@@ -322,7 +362,7 @@ main
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 5em;
+  margin-top: 3em;
   text-align: center;
 }
 
@@ -333,32 +373,163 @@ main
 
 .price
 {
-  font-family: Comic sans MS;
+  font-family: 'kalamregular', sans-serif;
   font-weight: bold;
 }
 
-h3
+/* Menu 2 détaillé */
+#container_2
 {
-  font-weight: bold;
-  font-size: 50px;
-  margin: 0;
-  font-family: 'oleo_scriptregular';
+  background: #FEF5FF;
+  width: 700px;
+  height: 1000px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px #BDBDBD;
+  padding: 2em 4em;
 }
 
-#note-footer
+#chic
 {
-  vertical-align: sub;
-  
-}
-
-#note_footer
-{
-  font-family: 'oleo_scriptregular';
+  background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'kuraleregular', sans-serif;
   font-size: 30px;
+  margin: 2em 0 1em 0;
+}
+
+#menu-chic
+{
+  background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'kuraleregular', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+#appétit
+{
+  color: #C7750A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+#plaisir
+{
+  color: #A6679A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+#gourmandises
+{
+  color: #6E4BCD;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_1
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #C7750A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_2
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #A6679A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_3
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #6E4BCD;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+/* Menu 3 détaillé */
+
+#container_3
+{
+  background: #F1F1F1;
+  width: 700px;
+  height: 1000px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px #BDBDBD;
+  padding: 2em 4em;
+}
+
+.papilles
+{
+  background: linear-gradient(170deg, #2A50E3 25%,  #2C96F9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'dancing_scriptregular', sans-serif;
+  font-size: 50px;
+  margin: 1em 0 0.7em 0;
+}
+
+
+/* souligne */
+
+#prelude, #pointe-orgue, #mouvement-final, 
+{
+  background: -moz-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
+  background: -webkit-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
+  background: linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
+  transition: background-size 0.6s;
+  background-size: 0% 100%;
+}
+#prelude:hover, #pointe-orgue:hover, #mouvement-final:hover, #appétit:hover, #plaisir:hover, 
+#gourmandises:hover
+{
+  background-size: 100% 100%;
+}
+
+#appétit
+{
+  background: -moz-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
+  background: -webkit-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
+  background: linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
+  transition: background-size 0.6s;
+  background-size: 0% 100%;
+}
+
+#plaisir
+{
+  background: -moz-linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
+  background: -webkit-linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
+  background: linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
+  transition: background-size 0.6s;
+  background-size: 0% 100%;
+}
+
+#gourmandises
+{
+  background: -moz-linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
+  background: -webkit-linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
+  background: linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
+  transition: background-size 0.6s;
+  background-size: 0% 100%;
 }
 
 
 
+
+
+/*Mention Légale*/
+
+#lorem-ipsum
+{
+  margin: 5em ;
+}
 
 
 
