@@ -375,6 +375,7 @@ h3
 {
   font-family: 'kalamregular', sans-serif;
   font-weight: bold;
+  font-size: 18px;
 }
 
 /* Menu 2 détaillé */
@@ -473,13 +474,12 @@ h3
   -webkit-text-fill-color: transparent;
   font-family: 'dancing_scriptregular', sans-serif;
   font-size: 50px;
-  margin: 1em 0 0.7em 0;
+  margin: 1em 0 0.6em 0;
 }
 
 
 /* souligne */
-
-#prelude, #pointe-orgue, #mouvement-final, 
+.mini_title
 {
   background: -moz-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
   background: -webkit-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
@@ -487,8 +487,13 @@ h3
   transition: background-size 0.6s;
   background-size: 0% 100%;
 }
-#prelude:hover, #pointe-orgue:hover, #mouvement-final:hover, #appétit:hover, #plaisir:hover, 
-#gourmandises:hover
+
+.mini_title:hover
+{
+  background-size: 100% 100%;
+}
+
+#appétit:hover, #plaisir:hover, #gourmandises:hover
 {
   background-size: 100% 100%;
 }
