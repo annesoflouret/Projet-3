@@ -519,12 +519,12 @@ h3
   background-size: 100% 100%;
 }
 
-#appétit:hover, #plaisir:hover, #gourmandises:hover
+#appetit:hover, #plaisir:hover, #gourmandises:hover
 {
   background-size: 100% 100%;
 }
 
-#appétit
+#appetit
 {
   background: -moz-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
   background: -webkit-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
