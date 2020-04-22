@@ -504,53 +504,6 @@ h3
 }
 
 
-/* souligne */
-#appetit:hover, #plaisir:hover, #gourmandises:hover
-{
-  background-size: 100% 100%;
-}
-
-#appetit
-{
-  background: -moz-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
-  background: -webkit-linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
-  background: linear-gradient(to top, #C7750A 7%, transparent 7%) no-repeat;
-  transition: background-size 0.6s;
-  background-size: 0% 100%;
-}
-
-#plaisir
-{
-  background: -moz-linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
-  background: -webkit-linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
-  background: linear-gradient(to top, #A6679A 7%, transparent 7%) no-repeat;
-  transition: background-size 0.6s;
-  background-size: 0% 100%;
-}
-
-#gourmandises
-{
-  background: -moz-linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
-  background: -webkit-linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
-  background: linear-gradient(to top, #6E4BCD 7%, transparent 7%) no-repeat;
-  transition: background-size 0.6s;
-  background-size: 0% 100%;
-}
-
-.mini_title
-{
-  background: -moz-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
-  background: -webkit-linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
-  background: linear-gradient(to top, #3F1418 7%, transparent 7%) no-repeat;
-  transition: background-size 0.6s;
-  background-size: 0% 100%;
-}
-
-.mini_title:hover
-{
-  background-size: 100% 100%;
-}
-
 /*Mention Légale*/
 #lorem-ipsum
 {

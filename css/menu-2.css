@@ -1,4 +1,4 @@
-#container_2
+#container-2
 {
   background: #FEF5FF;
   width: 700px;
@@ -47,7 +47,7 @@
   font-family: 'kuraleregular', sans-serif;
 }
 
-.food_1
+.food-1
 {
   display: flex;
   justify-content: space-between;
@@ -56,7 +56,7 @@
   font-family: 'kuraleregular', sans-serif;
 }
 
-.food_2
+.food-2
 {
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@
   font-family: 'kuraleregular', sans-serif;
 }
 
-.food_3
+.food-3
 {
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,7 @@
   font-family: 'kuraleregular', sans-serif;
 }
 
-.price_2
+.price-2
 {
   font-size: 18px;
 }

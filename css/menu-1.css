@@ -1,5 +1,5 @@
 
-#container_1
+#container-1
 {
   background: #FCDFDB;
   width: 700px;
@@ -23,19 +23,11 @@
   vertical-align: sub;
 }
 
-#note_footer
+#note-name
 {
   font-family: 'devonshireregular', sans-serif;
   font-size: 30px;
 }
-
-
-
-
-
-
-
-
 
 .footer
 {
