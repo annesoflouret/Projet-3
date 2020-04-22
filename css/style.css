@@ -21,14 +21,13 @@ body
 
 .menu
 {
-  width: 200px;
- 
+  width: 250px;
   box-shadow: 1px 1px 8px #BDBDBD;
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
+  height: 350px;
   box-sizing: border-box;
 }
 
@@ -86,7 +85,7 @@ figure, p
 #menu-title2 
 {
   font-family: 'kuraleregular', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #C77411;
 }
 
@@ -96,7 +95,7 @@ figure, p
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'kuraleregular', sans-serif;
-  font-size: 17px;
+  font-size: 20px;
 
 }
 
@@ -109,7 +108,7 @@ figure, p
 #menu-title3
 {
    font-family: 'kalamregular', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #2C96F9;
 }
 
@@ -119,7 +118,7 @@ figure, p
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'dancing_scriptregular', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 /*menu carte 4*/
 #menu4
@@ -135,14 +134,14 @@ figure, p
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'kaushan_scriptregular', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #menu-title4
 {
   color: #54A24F;
   font-family: 'kalamregular', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /*soon bar*/
