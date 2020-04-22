@@ -1,7 +1,7 @@
 /*font*/
 @font-face 
 {
-    font-family: 'dancing_scriptregular';
+    font-family: 'dancing-scriptregular';
     src: url('../font/dancingscript/dancingscript-webfont.eot');
     src: url('../font/dancingscript/dancingscript-webfont.eot?#iefix') format('embedded-opentype'),
          url('../font/dancingscript/dancingscript-webfont.woff2') format('woff2'),
@@ -13,7 +13,7 @@
 }
 @font-face 
 {
-    font-family: 'kaushan_scriptregular';
+    font-family: 'kaushan-scriptregular';
     src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot');
     src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../font/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
