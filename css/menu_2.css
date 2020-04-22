@@ -1,0 +1,80 @@
+#container_2
+{
+  background: #FEF5FF;
+  width: 700px;
+  height: 1000px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px #BDBDBD;
+  padding: 2em 4em;
+}
+
+#chic
+{
+  background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'kuraleregular', sans-serif;
+  font-size: 30px;
+  margin: 2em 0 1em 0;
+}
+
+#menu-chic
+{
+  background: linear-gradient(170deg, #C77411 25%,  #651FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'kuraleregular', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+#appetit
+{
+  color: #C7750A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+#plaisir
+{
+  color: #A6679A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+#gourmandises
+{
+  color: #6E4BCD;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_1
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #C7750A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_2
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #A6679A;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.food_3
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  color: #6E4BCD;
+  font-family: 'kuraleregular', sans-serif;
+}
+
+.price_2
+{
+  font-size: 18px;
+}
