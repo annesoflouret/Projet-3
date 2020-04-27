@@ -6,16 +6,21 @@ body
   margin: 0px;
   font-family: 'helvetica', 'Arial', sans-serif;
 }
-
-#conteneur
+.container
 {
-	padding: 0 18em;
-	margin: 4em 4em 0em;
-  height: 770px;
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+
+#menu-container
+{
+  height: 740px;
+  width: 540px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-content: space-around;
+	justify-content: space-between;
+	align-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -59,6 +64,7 @@ figure, p
   font-size: 25px;
   font-family: 'kalamregular';
   color: #3C1218;
+  margin-top: 0.8em;
 }
 
 .moving-text
@@ -73,6 +79,11 @@ figure, p
 {
   transform: scale(1.15);
   opacity: 0.8;
+}
+
+#note-music
+{
+  vertical-align: bottom;
 }
 
 /*menu carte 2*/
@@ -148,14 +159,16 @@ figure, p
 #soon
 {
   background-color: #569C87;
-  display: flex;
-  justify-content: center;
-  margin: 1em 19em 5em;
-  padding: 0.6em;
+  width: 300px;
+  height: 50px;
   border-radius: 10px;
   font-size: 25px;
   font-weight: normal;
   color: #EEC550;
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+  margin: 0 0 2em;
 }
 
 
