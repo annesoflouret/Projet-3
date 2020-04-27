@@ -1,5 +1,12 @@
 /*Mention Légale*/
 #lorem-ipsum
 {
-  margin: 5em;
+	text-align: justify;
+  	margin: 5em;
+}
+
+#mentions-legales
+{
+	text-align: center;
+	font-size: 20px;
 }

@@ -1,49 +1,39 @@
 /* CSS pour petits écrans */
 @media only screen and (max-width: 700px)
 {
-#menu-container
-{
-	display: flex;
-	justify-content: center;
-	height: auto;
-	width: auto;
-	flex-direction: column;
-}
+	#menu-container
+	{
+		display: flex;
+		justify-content: center;
+		height: auto;
+		width: auto;
+		flex-direction: column;
+	}
 
-#top-bar
-{
-	font-size: 30px;
-}
+	#top-bar
+	{
+		font-size: 30px;
+	}
 
-.menu
-{
-	width: 200px;
-	height: 280px;
-	margin-top: 1.5em;
-}
-#menu1
-{
-	margin-top: 0;
-}
-#soon
-{
+	.menu
+	{
+		width: 200px;
+		height: 280px;
+		margin-top: 1.5em;
+	}
+	#menu1
+	{
+		margin-top: 0;
+	}
+	#soon
+	{
 
-}
+	}
 
-#container-1
-{
-	width: 300px;
-	padding: 0.2em;
-}
-
-.subtitle
-{
-	flex-direction: column;
-}
-
-.mini-title
-{
-	margin: 0;
-
-}
+	/* Mentions legales */
+	#lorem-ipsum
+	{
+		margin: 2em 2em 5em 2em;
+		text-align: justify;
+	}
 }

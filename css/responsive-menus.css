@@ -1,0 +1,68 @@
+/* CCS pour les écrans à partir de 800px */
+@media only screen and (max-width: 800px)
+{
+	/* Menus détaillés */
+	#container-1, #container-2, #container-3, #container-4
+	{
+		width: 480px;
+		height: auto;
+		padding: 1em;
+	}
+
+	.subtitle
+	{
+		flex-direction: column;
+		margin-bottom: 1em;
+	}
+
+	.mini-title
+	{
+		margin: 0;
+
+	}
+
+	.price, .price-2
+	{
+		margin-left: 1em;
+	}
+
+	.food, .food-1
+	{
+		font-size: 15px;
+	}
+	/* Menu 1 */
+
+	/* Menu 2 */
+
+	#chic
+	{
+		margin: 40px 0 0 0;
+	}
+	#appetit, #plaisir, #gourmandises 
+	{
+		margin: 0;
+	}
+
+	/* Menus 3 */
+
+	/* Menu 4*/
+
+	.gout
+	{
+		text-align: center;
+	}
+
+	
+}
+/* CCS pour les écrans à partir de 550px */
+@media only screen and (max-width: 500px)
+{
+	/* Menus détaillés */
+	#container-1, #container-2, #container-3, #container-4
+	{
+		width: 300px;
+		height: auto;
+		padding: 1em;
+	}
+
+}
