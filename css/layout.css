@@ -63,12 +63,12 @@ h1
 
 #top-bar
 {
+  color: #EEC550;
   display: flex;
   justify-content: center;
   background: #569C87;
   margin: 0;
-  color: #EEC550;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #name
