@@ -13,6 +13,7 @@
 	{
 		flex-direction: column;
 		margin-bottom: 1em;
+		
 	}
 
 	.mini-title
@@ -33,7 +34,6 @@
 	/* Menu 1 */
 
 	/* Menu 2 */
-
 	#chic
 	{
 		margin: 40px 0 0 0;
@@ -44,9 +44,12 @@
 	}
 
 	/* Menus 3 */
-
+	.papilles
+	{
+		text-align: center;
+	}
+	
 	/* Menu 4*/
-
 	.gout
 	{
 		text-align: center;
