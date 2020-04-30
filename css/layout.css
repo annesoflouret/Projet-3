@@ -83,7 +83,7 @@ h1
   display: flex;
   justify-content: space-between;
   background: #569C87;
-  padding: 1em;
+  padding: 0 1em 1em;
   color: #EEC550;
   position: fixed;
   bottom: 0;

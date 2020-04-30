@@ -13,10 +13,10 @@ h3
   font-family: 'devonshireregular', sans-serif;
 }
 
-a
+ul
 {
-  text-decoration: none;
-  color: #EEC550;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-title
