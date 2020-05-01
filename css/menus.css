@@ -5,38 +5,11 @@ main
   align-items: center;
   margin-bottom: 8em;
 }
-h3
-{
-  font-weight: bold;
-  font-size: 50px;
-  margin: 0;
-  font-family: 'devonshireregular', sans-serif;
-}
 
 ul
 {
   padding: 0;
-  margin: 0;
-}
-
-.menu-title
-{
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 1.5em;
-  color: #353535;
-}
-
-.subtitle
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'kalamregular', sans-serif;
-  font-weight: bold;
-  margin: 2em 0 0 0;
+  margin: 0 3em;
 }
 
 .subtitle-menu
@@ -48,17 +21,27 @@ ul
   font-family: 'devonshireregular', sans-serif;
 }
 
-.line-1
+.subtitle
 {
-  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'kalamregular', sans-serif;
+  font-weight: bold;
+  margin-top: 1em;
 }
 
+.line
+{
+  width: 200px;
+}
 
 .food
 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1em;
   font-family: 'kalamregular', sans-serif;
 }
 

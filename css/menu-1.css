@@ -9,14 +9,21 @@
   padding: 2em 5em;
 }
 
-#menu-1-title 
+#menu-enchantee
 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1.4em;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1em;
+  color: #353535;
 }
 
+#restaurant-name
+{
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'devonshireregular', sans-serif;
+}
 
 #note-footer
 {
@@ -29,12 +36,17 @@
   font-size: 30px;
 }
 
-.footer
+.space
+{
+  margin: 0;
+}
+
+.enchantee-footer
 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 3em;
+  margin: 5em 0;
   text-align: center;
 }
 

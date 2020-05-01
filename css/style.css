@@ -13,6 +13,11 @@ a
   color: #EEC550;
 }
 
+p
+{
+  margin: 0.3em;
+}
+
 .container
 {
   display: flex;
@@ -44,9 +49,9 @@ a
 }
 
 /*menu carte 1*/
-figure, p 
+figure 
 {
-  margin: 1em 0 0;
+  margin: 2em 1em 0;
 }
 
 #menu1
@@ -59,7 +64,7 @@ figure, p
   font-size: 25px;
   font-family: 'kalamregular';
   color: #3C1218;
-  margin-top: 0.8em;
+  margin: 0.8em;
 }
 
 .moving-text
@@ -67,7 +72,6 @@ figure, p
   transform: scale(1);
   transition-property: transform;
   transition-duration: 800ms;
-
 }
 .moving-text:hover
 {
@@ -78,6 +82,7 @@ figure, p
 #note-music
 {
   vertical-align: bottom;
+  margin: 0 2em;
 }
 
 #enchantee
@@ -97,9 +102,10 @@ figure, p
 
 #menu-title2 
 {
-  font-family: 'kuraleregular', sans-serif;
+  font-family: 'noto-serifregular', sans-serif;
   font-size: 30px;
   color: #C77411;
+  margin: 0;
 }
 
 #french-menu
@@ -120,9 +126,10 @@ figure, p
 
 #menu-title3
 {
-   font-family: 'kalamregular', sans-serif;
+  font-family: 'kalamregular', sans-serif;
   font-size: 30px;
   color: #2C96F9;
+  margin: 0;
 }
 
 #delice
@@ -155,6 +162,7 @@ figure, p
   color: #54A24F;
   font-family: 'kalamregular', sans-serif;
   font-size: 30px;
+  margin: 0;
 }
 
 /* Prochainement */

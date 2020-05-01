@@ -56,6 +56,20 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'noto-serifregular';
+    src: url('../font/noto/notoserif-regular-webfont.eot');
+    src: url('../font/noto/notoserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/noto/notoserif-regular-webfont.woff2') format('woff2'),
+         url('../font/noto/notoserif-regular-webfont.woff') format('woff'),
+         url('../font/noto/notoserif-regular-webfont.ttf') format('truetype'),
+         url('../font/noto/notoserif-regular-webfont.svg#noto_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Top bar */
 h1
 {
   margin: 0
@@ -63,7 +77,6 @@ h1
 
 #top-bar
 {
-  color: #EEC550;
   display: flex;
   justify-content: center;
   background: #569C87;
@@ -78,13 +91,13 @@ h1
   margin: 20px 0 20px
 }
 
+/* Bottom-bar */
 #bottom-bar
 {
   display: flex;
   justify-content: space-between;
   background: #569C87;
-  padding: 0 1em 1em;
-  color: #EEC550;
+  padding: 0.6em 1em;
   position: fixed;
   bottom: 0;
   width: 100%;

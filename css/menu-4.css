@@ -5,7 +5,7 @@
   height: 1000px;
   box-sizing: border-box;
   box-shadow: 1px 1px 8px #BDBDBD;
-  padding: 3em 4em;
+  padding: 3em 2.5em;
 }
 
 .gout
@@ -16,7 +16,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'kaushan-scriptregular', sans-serif;
-  font-size: 50px;
+  font-size: 55px;
+  margin: 0.8em 0;
 }
 
 
