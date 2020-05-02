@@ -1,9 +1,8 @@
-
 #container-1
 {
   background: #FCDFDB;
   width: 750px;
-  height: 1050px;
+  height: 1000px;
   box-sizing: border-box;
   box-shadow: 1px 1px 8px #BDBDBD;
   padding: 2em 5em;
@@ -46,9 +45,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin: 5em 0;
+  margin: 3em 0;
   text-align: center;
 }
-
-
-

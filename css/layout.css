@@ -1,72 +1,80 @@
-/*font*/
+/* Fonts */
 @font-face 
 {
-    font-family: 'dancing-scriptregular';
-    src: url('../font/dancingscript/dancingscript-webfont.eot');
-    src: url('../font/dancingscript/dancingscript-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/dancingscript/dancingscript-webfont.woff2') format('woff2'),
-         url('../font/dancingscript/dancingscript-webfont.woff') format('woff'),
-         url('../font/dancingscript/dancingscript-webfont.ttf') format('truetype'),
-         url('../font/dancingscript/dancingscript-webfont.svg#dancing_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'dancing-scriptregular';
+  src: url('../font/dancingscript/dancingscript-webfont.eot');
+  src: url('../font/dancingscript/dancingscript-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/dancingscript/dancingscript-webfont.woff2') format('woff2'),
+       url('../font/dancingscript/dancingscript-webfont.woff') format('woff'),
+       url('../font/dancingscript/dancingscript-webfont.ttf') format('truetype'),
+       url('../font/dancingscript/dancingscript-webfont.svg#dancing_scriptregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face 
-{
-    font-family: 'kaushan-scriptregular';
-    src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot');
-    src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('../font/kaushanscript/kaushanscript-regular-webfont.woff') format('woff'),
-         url('../font/kaushanscript/kaushanscript-regular-webfont.ttf') format('truetype'),
-         url('../font/kaushanscript/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'devonshireregular';
-    src: url('../font/devonshire/devonshire-regular-webfont.eot');
-    src: url('../font/devonshire/devonshire-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/devonshire/devonshire-regular-webfont.woff2') format('woff2'),
-         url('../font/devonshire/devonshire-regular-webfont.woff') format('woff'),
-         url('../font/devonshire/devonshire-regular-webfont.ttf') format('truetype'),
-         url('../font/devonshire/devonshire-regular-webfont.svg#devonshireregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'kalamregular';
-    src: url('../font/kalam/kalam-regular-webfont.eot');
-    src: url('../font/kalam/kalam-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/kalam/kalam-regular-webfont.woff2') format('woff2'),
-         url('../font/kalam/kalam-regular-webfont.woff') format('woff'),
-         url('../font/kalam/kalam-regular-webfont.ttf') format('truetype'),
-         url('../font/kalam/kalam-regular-webfont.svg#kalamregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'kuraleregular';
-    src: url('../font/kurale/kurale-regular-webfont.eot');
-    src: url('../font/kurale/kurale-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/kurale/kurale-regular-webfont.woff2') format('woff2'),
-         url('../font/kurale/kurale-regular-webfont.woff') format('woff'),
-         url('../font/kurale/kurale-regular-webfont.ttf') format('truetype'),
-         url('../font/kurale/kurale-regular-webfont.svg#kuraleregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'noto-serifregular';
-    src: url('../font/noto/notoserif-regular-webfont.eot');
-    src: url('../font/noto/notoserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/noto/notoserif-regular-webfont.woff2') format('woff2'),
-         url('../font/noto/notoserif-regular-webfont.woff') format('woff'),
-         url('../font/noto/notoserif-regular-webfont.ttf') format('truetype'),
-         url('../font/noto/notoserif-regular-webfont.svg#noto_serifregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
+@font-face 
+{
+  font-family: 'kaushan-scriptregular';
+  src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot');
+  src: url('../font/kaushanscript/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/kaushanscript/kaushanscript-regular-webfont.woff2') format('woff2'),
+       url('../font/kaushanscript/kaushanscript-regular-webfont.woff') format('woff'),
+       url('../font/kaushanscript/kaushanscript-regular-webfont.ttf') format('truetype'),
+       url('../font/kaushanscript/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'devonshireregular';
+  src: url('../font/devonshire/devonshire-regular-webfont.eot');
+  src: url('../font/devonshire/devonshire-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/devonshire/devonshire-regular-webfont.woff2') format('woff2'),
+       url('../font/devonshire/devonshire-regular-webfont.woff') format('woff'),
+       url('../font/devonshire/devonshire-regular-webfont.ttf') format('truetype'),
+       url('../font/devonshire/devonshire-regular-webfont.svg#devonshireregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'kalamregular';
+  src: url('../font/kalam/kalam-regular-webfont.eot');
+  src: url('../font/kalam/kalam-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/kalam/kalam-regular-webfont.woff2') format('woff2'),
+       url('../font/kalam/kalam-regular-webfont.woff') format('woff'),
+       url('../font/kalam/kalam-regular-webfont.ttf') format('truetype'),
+       url('../font/kalam/kalam-regular-webfont.svg#kalamregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'kuraleregular';
+  src: url('../font/kurale/kurale-regular-webfont.eot');
+  src: url('../font/kurale/kurale-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/kurale/kurale-regular-webfont.woff2') format('woff2'),
+       url('../font/kurale/kurale-regular-webfont.woff') format('woff'),
+       url('../font/kurale/kurale-regular-webfont.ttf') format('truetype'),
+       url('../font/kurale/kurale-regular-webfont.svg#kuraleregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'noto-serifregular';
+  src: url('../font/noto/notoserif-regular-webfont.eot');
+  src: url('../font/noto/notoserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/notoserif-regular-webfont.woff2') format('woff2'),
+       url('../font/noto/notoserif-regular-webfont.woff') format('woff'),
+       url('../font/noto/notoserif-regular-webfont.ttf') format('truetype'),
+       url('../font/noto/notoserif-regular-webfont.svg#noto_serifregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Top bar */
@@ -110,15 +118,16 @@ h1
   text-decoration: none;
   display: inline-block;
 }
+
 .btn:hover
-{ 
+{
   animation: wiggle 1.15s infinite;
 }
+
 @keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(5deg); }
-   95% { transform: rotate(-5deg); }
+  0% { transform: rotate(0deg); }
+  80% { transform: rotate(0deg); }
+  85% { transform: rotate(5deg); }
+  95% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
 }
-

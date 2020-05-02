@@ -1,5 +1,4 @@
-
-/* 1er page*/
+/* Homepage */
 body
 {
   font-style: normal;
@@ -29,11 +28,11 @@ p
 {
   height: 740px;
   width: 540px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
 }
 
 .menu
@@ -48,7 +47,7 @@ p
   box-sizing: border-box;
 }
 
-/*menu carte 1*/
+/* Menu carte 1 */
 figure 
 {
   margin: 2em 1em 0;
@@ -93,12 +92,11 @@ figure
   font-family: 'devonshireregular', sans-serif;
 }
 
-/*menu carte 2*/
+/* Menu carte 2 */
 #menu2
 {
   background-color: #FEF5FF;
-
-  }
+}
 
 #menu-title2 
 {
@@ -115,10 +113,9 @@ figure
   -webkit-text-fill-color: transparent;
   font-family: 'kuraleregular', sans-serif;
   font-size: 20px;
-
 }
 
-/*menu carte 3*/
+/* Menu carte 3 */
 #menu3
 {
   background-color: #F1F1F1;
@@ -140,7 +137,7 @@ figure
   font-family: 'dancing-scriptregular', sans-serif;
   font-size: 22px;
 }
-/*menu carte 4*/
+/* Menu carte 4 */
 #menu4
 {
   background-color: #F9F9F9;
@@ -181,44 +178,30 @@ figure
   margin: 0 0 2em;
 }
 
-/* Animations points*/
+/* Animations points */
+@keyframes animation
+{
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #point-1
 {
-    animation: animation 1.2s infinite;
-    padding-left: 5px;
-}
-@keyframes animation{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
+  animation: animation 1.2s infinite;
+  padding-left: 5px;
 }
 
 #point-2
 {
-    animation: animation 1.2s infinite;
-    animation-delay: .2s;
-    padding-left: 5px;
-}
-@keyframes animation{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
+  animation: animation 1.2s infinite;
+  animation-delay: .2s;
+  padding-left: 5px;
 }
 
 #point-3
 {
-    animation: animation 1.2s infinite;
-    animation-delay: .4s;
-    padding-left: 5px;
+  animation: animation 1.2s infinite;
+  animation-delay: .4s;
+  padding-left: 5px;
 }
-@keyframes animation{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-
-
-
-
-

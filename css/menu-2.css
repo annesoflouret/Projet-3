@@ -26,7 +26,7 @@
   -webkit-text-fill-color: transparent;
   font-family: 'kuraleregular', sans-serif;
   font-size: 40px;
-  margin: 1.3em 0 1.3em 0;
+  margin: 1.3em 0 1em;
 }
 
 #appetit
@@ -53,6 +53,7 @@
   justify-content: space-between;
   color: #C7750A;
   font-family: 'kuraleregular', sans-serif;
+  font-size: 15px;
 }
 
 .food-2
@@ -61,6 +62,7 @@
   justify-content: space-between;
   color: #A6679A;
   font-family: 'kuraleregular', sans-serif;
+  font-size: 15px;
 }
 
 .food-3
@@ -69,6 +71,7 @@
   justify-content: space-between;
   color: #6E4BCD;
   font-family: 'kuraleregular', sans-serif;
+  font-size: 15px;
 }
 
 .price-2

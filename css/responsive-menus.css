@@ -1,139 +1,139 @@
-/* CCS pour les écrans à partir de 800px */
+/* CSS pour les écrans à partir de 800px */
 @media only screen and (max-width: 800px)
 {
-	/* Menus détaillés */
-	ul
-	{
-		margin: 0;
-	}
+  /* Menus détaillés */
+  ul
+  {
+      margin: 0;
+  }
 
-	h3
-	{
-		font-size: 40px;
-	}
+  h3
+  {
+      font-size: 40px;
+  }
 
-	#container-1, #container-2, #container-3, #container-4
-	{
-		width: 480px;
-		height: auto;
-		padding: 1em;
-	}
+  #container-1, #container-2, #container-3, #container-4
+  {
+      width: 480px;
+      height: auto;
+      padding: 1em;
+  }
 
-	.line
-	{
-    width: 160px;
-	}
+  .line
+  {
+  width: 160px;
+  }
 
-	.subtitle
-	{
-		flex-direction: column;
-		margin: 0.5em 0 ;
-	}
+  .subtitle
+  {
+      flex-direction: column;
+      margin: 0.5em 0 ;
+  }
 
-	.mini-title
-	{
-		margin: 0;
-		font-size: 20px;
-	}
+  .mini-title
+  {
+      margin: 0;
+      font-size: 20px;
+  }
 
-	.price, .price-2
-	{
-		margin-left: 1em;
-	}
+  .price, .price-2
+  {
+      margin-left: 1em;
+  }
 
-	.food, .food-1
-	{
-		font-size: 15px;
-	}
-	/* Menu 1 */
-	#menu-title
-	{
-		font-size: 20px;
-	}
-	
-	/* Menu 2 */
-	#chic
-	{
-		margin: 1em 0;
-		font-size: 35px;
-	}
-	#appetit, #plaisir, #gourmandises 
-	{
-		margin: 0;
-	}
+  .food, .food-1
+  {
+      font-size: 15px;
+  }
+  /* Menu 1 */
+  #menu-title
+  {
+      font-size: 20px;
+  }
 
-	/* Menus 3 */
-	.papilles
-	{
-		font-size: 40px;
-	}
-	/* Menu 4*/
-	.gout
-	{
-		text-align: center;
-	}	
+  /* Menu 2 */
+  #chic
+  {
+      margin: 1em 0;
+      font-size: 35px;
+  }
+  #appetit, #plaisir, #gourmandises 
+  {
+      margin: 0;
+  }
+
+  /* Menus 3 */
+  .papilles
+  {
+      font-size: 40px;
+  }
+  /* Menu 4*/
+  .gout
+  {
+      text-align: center;
+  }
 }
 
-/* CCS pour les écrans à partir de 550px */
+/* CSS pour les écrans à partir de 550px */
 @media only screen and (max-width: 500px)
 {
-	/* Menus détaillés */
-	#container-1, #container-2, #container-3, #container-4
-	{
-		width: 300px;
-		height: auto;
-		padding: 1em;
-	}
+  /* Menus détaillés */
+  #container-1, #container-2, #container-3, #container-4
+  {
+      width: 300px;
+      height: auto;
+      padding: 1em;
+  }
 
-	.mini-title
-	{
-		font-size: 17px;
-	}
+  .mini-title
+  {
+      font-size: 17px;
+  }
 
-	/* Menu 1 */
-	#menu-title
-	{
-		font-size: 25px;
-	}
+  /* Menu 1 */
+  #menu-title
+  {
+      font-size: 25px;
+  }
 
-	#restaurant-name
-	{
-		font-size: 40px;
-		margin-bottom: 0.3em;
-	}
+  #restaurant-name
+  {
+      font-size: 40px;
+      margin-bottom: 0.3em;
+  }
 
-	.footer
-	{
-		margin: 1em 0;
-	}
+  .footer
+  {
+      margin: 1em 0;
+  }
 
-	/* Menu 2 */
-	#chic 
-	{
-		font-size: 25px;
-		margin: 1em 0;
-	}
+  /* Menu 2 */
+  #chic 
+  {
+      font-size: 25px;
+      margin: 1em 0;
+  }
 
-	#menu-chic
-	{
-		font-size: 27px;
-	}
+  #menu-chic
+  {
+      font-size: 27px;
+  }
 
-	#appetit, #plaisir, #gourmandises
-	{
-		font-size: 17px;
-	}
+  #appetit, #plaisir, #gourmandises
+  {
+      font-size: 17px;
+  }
 
-	/* Menu 3 */
-	.papilles
-	{
-		text-align: center;
-		font-size: 30px;
-	}
+  /* Menu 3 */
+  .papilles
+  {
+      text-align: center;
+      font-size: 30px;
+  }
 
-	/* Menu 4 */
-	.gout
-	{ 
-		font-size: 35px;
-	}
+  /* Menu 4 */
+  .gout
+  { 
+      font-size: 35px;
+  }
 }
