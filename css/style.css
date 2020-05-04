@@ -20,7 +20,8 @@ p
 .container
 {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 3em 0;
 }
 
@@ -169,13 +170,19 @@ figure
   width: 300px;
   height: 50px;
   border-radius: 10px;
-  font-size: 25px;
-  font-weight: normal;
   color: #EEC550;
   display: flex;
   justify-content: center;
   line-height: 50px;
-  margin: 0 0 2em;
+  margin: 2em 0;
+}
+
+#soon-title
+{
+      margin: 0;
+    font-size: 25px;
+    font-weight: normal;
+
 }
 
 /* Animations points */
@@ -189,19 +196,19 @@ figure
 #point-1
 {
   animation: animation 1.2s infinite;
-  padding-left: 5px;
+  padding-left: 3px;
 }
 
 #point-2
 {
   animation: animation 1.2s infinite;
   animation-delay: .2s;
-  padding-left: 5px;
+  padding-left: 3px;
 }
 
 #point-3
 {
   animation: animation 1.2s infinite;
   animation-delay: .4s;
-  padding-left: 5px;
+  padding-left: 3px;
 }
